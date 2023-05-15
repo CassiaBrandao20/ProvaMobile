@@ -18,8 +18,8 @@ export default function ActivityScreen() {
 
   return (
     <View>
-      <Text>Atividade</Text>
-      <Text>Contador: {count}</Text>
+      <Text>Atividades</Text>
+      <Text>Contador = {count}</Text>
       <Button title="Adicionar" onPress={handleAddCount} />
       <ButtonNavigate navigation={navigation} location="HomeScreen">
         Voltar

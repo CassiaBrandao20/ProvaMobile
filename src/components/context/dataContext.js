@@ -4,9 +4,9 @@ export const DataContext = createContext()
 
 export default function DataProvider({ children }) {
   const [count, setCount] = useState(0);
-  return (
+  return ( 
     <DataContext.Provider value={{ count, setCount}}>
-      {children}
+      {children}  
     </DataContext.Provider>
   )
-}
+} 
